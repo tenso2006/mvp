@@ -1,0 +1,24 @@
+{
+  "name": "puppies",
+  "version": "1.0.0",
+  "description": "Show your puppy, adopt a puppy, exchange your puppy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor-labs/pomander/master/bin/install | bash",
+    "type": "git",
+    "url": "git+https://github.com/tenso2006/hrsf53-mvp.git"
+  },
+  "author": "Tenzin Sonam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenso2006/hrsf53-mvp/issues"
+  },
+  "homepage": "https://github.com/tenso2006/hrsf53-mvp#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
