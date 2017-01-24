@@ -1,49 +1,49 @@
 [
   {
-    "name":"Cutie",
-    "owner":"dorji@mushroomkingdom.com",
+    "userName":"Cutie",
+    "email":"dorji@mushroomkingdom.com",
     "image":"http://tinyurl.com/hmnyb94",
     "description":"Looking for more cute puppies."
   },
   {
-    "name":"Compy",
-    "owner":"raj@compystompy.com",
+    "userName":"Compy",
+    "email":"raj@compystompy.com",
     "image":"http://tinyurl.com/h74z3t9",
     "description":"Hanging to see more puupies besides sharing pics."
   },
   {
-    "name":"Mr. Ziggles",
-    "owner":"lion@hotmail.com",
+    "userName":"Mr. Ziggles",
+    "email":"lion@hotmail.com",
     "image":"http://tinyurl.com/jerv8vl",
     "description":"My puppy loves everything music, with the expection of children's stuff. Especially the Wiggles."
   },
   {
-    "name":"Mikey",
-    "owner":"beware@gmail.com",
+    "userName":"Mikey",
+    "email":"beware@gmail.com",
     "image":"http://tinyurl.com/jymc6j8",
     "description":"Mikey Spends the days roaming the back country of Alberta, Canada looking for someone who will cherish and respect him."
   },
   {
-    "name":"Simone",
-    "owner":"simone@cuttastic.com",
+    "userName":"Simone",
+    "email":"simone@cuttastic.com",
     "image":"http://tinyurl.com/j746a8y",
     "description":"One of the few comic book nerd who someday wishes to have his bones replaced with adamantium."
   },
   {
-    "name":"Foggy",
-    "owner":"foggy@aol.com",
+    "userName":"Foggy",
+    "email":"foggy@aol.com",
     "image":"http://tinyurl.com/z6wtgg2",
     "description":"A relaxed, sweet, sentimental puppy who likes to sit by the window and watch the snow fall."
   },
   {
-    "name":"barb",
-    "owner":"bard@askjeeves.com",
+    "userName":"barb",
+    "email":"bard@askjeeves.com",
     "image":"http://tinyurl.com/grlkoay",
     "description":"An barking puppy with an bong name. If you borrow barb, please return her with a better name."
   },
   {
-    "name":"Halo",
-    "owner":"halo@gmail.com",
+    "userName":"Halo",
+    "email":"halo@gmail.com",
     "image":"http://tinyurl.com/hrdnh9d",
     "description":"Not to be confused with a hot dude in town, Halo is a theatrical puppy who longs to appear on the silver screen of your heart."
   }
