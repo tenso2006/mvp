@@ -1,38 +1,40 @@
-var mongoose  = require('mongoose');
+// var mongoose  = require('mongoose');
 
-mongoose.connect('mongodb://localhost/puppy');
+// mongoose.connect('mongodb://localhost/puppy');
 
-var db = mongoose.connection;
+// var db = mongoose.connection;
 
-var puppySchema = mongoose.Schema({
-  userName: String,
-  email: String,
-  image: String,
-  description: String
-});
+// var puppySchema = mongoose.Schema({
+//   userName: String,
+//   email: String,
+//   image: String,
+//   description: String
+// });
 
-var Puppies = mongoose.model('Puppies', puppySchema);
+// var Puppies = mongoose.model('Puppies', puppySchema);
 
 
-var newPuppy = new Puppies({
-  userName: 'Bolo',
-  email: 'bplo@gmail.com',
-  image: 'bolo image',
-  description: 'bolo is new puppy in town'
-});
+// // var newPuppy = new Puppies({
+// //   userName: 'Bolo',
+// //   email: 'bplo@gmail.com',
+// //   image: 'bolo image',
+// //   description: 'bolo is new puppy in town'
+// // });
 
-newPuppy.save(function (err, newPuppy) {
-  if (err) return console.error(err);
-  console.log('newPuppy is :', newPuppy);
-});
+// // newPuppy.save(function (err, newPuppy) {
+// //   if (err) return console.error(err);
+// //   console.log('newPuppy is :', newPuppy);
+// // });
 
-db.on('error', console.error.bind(console, 'connection error for mongoose puppy db'));
 
-db.once('open', function () {
+// db.on('error', console.error.bind(console, 'connection error for mongoose puppy db'));
 
-  console.log('connected to puppy db');
-});
+// db.once('open', function () {
 
-module.exports = db;
-module.exports = Puppies;
+//   console.log('connected to puppy db');
+// });
+
+// console.log('db from app.js ', db);
+// module.exports = db;
+// module.exports = Puppies;
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="puppyApp">
+<html >
 <head>
     <title>Puppy</title>
     <meta charset="utf-8" />
@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="style.css"> <!-- custom styles -->
 
     <!-- Angular sourcecode -->
-    <script src="lib/angular/angular.min.js"></script>
-    <script src="lib/angular-route/angular-route.min.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>
 
     <!-- Angular Custom -->
-    <script src="adopt/adopt.js"></script>
-    <script src="exchange/exchange.js"></script>
+  <script src="adopt/adopt.js"></script>
+  <script src="exchange/exchange.js"></script>
+  <script src="services.js"></script>
+  <script src="app.js"></script>
+
+  <!-- <base href="/"> -->
 </head>
-<body>
+<body ng-app="puppyApp">
   <nav class="navbar navbar-inverse">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#/">Puppies</a>
+      <a class="navbar-brand" href="/">Puppies</a>
     </div>
         <!-- LINK TO OUR PAGES. ANGULAR HANDLES THE ROUTING HERE -->
         <ul class="nav navbar-nav">
-            <li><a href="#/adopt">Adopt a Puppy</a></li>
-            <li><a href="#/exchange">Exchange a Puppy</a></li>
+            <li><a href="/adopt">Adopt a Puppy</a></li>
+            <li><a href="/exchange">Exchange a Puppy</a></li>
         </ul>
     </nav>
+  <!-- <ng-view></ng-view> -->
   <div ng-view></div>
+
 </body>
 </html>

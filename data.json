@@ -2,49 +2,49 @@
   {
     "userName":"Cutie",
     "email":"dorji@mushroomkingdom.com",
-    "image":"http://tinyurl.com/hmnyb94",
+    "image":"client/assets/pic1.jpg",
     "description":"Looking for more cute puppies."
   },
   {
     "userName":"Compy",
     "email":"raj@compystompy.com",
-    "image":"http://tinyurl.com/h74z3t9",
+    "image":"client/assets/pic2.jpg",
     "description":"Hanging to see more puupies besides sharing pics."
   },
   {
     "userName":"Mr. Ziggles",
     "email":"lion@hotmail.com",
-    "image":"http://tinyurl.com/jerv8vl",
+    "image":"client/assets/pic3.jpg",
     "description":"My puppy loves everything music, with the expection of children's stuff. Especially the Wiggles."
   },
   {
     "userName":"Mikey",
     "email":"beware@gmail.com",
-    "image":"http://tinyurl.com/jymc6j8",
+    "image":"client/assets/pic4.jpg",
     "description":"Mikey Spends the days roaming the back country of Alberta, Canada looking for someone who will cherish and respect him."
   },
   {
     "userName":"Simone",
     "email":"simone@cuttastic.com",
-    "image":"http://tinyurl.com/j746a8y",
+    "image":"client/assets/pic5.jpg",
     "description":"One of the few comic book nerd who someday wishes to have his bones replaced with adamantium."
   },
   {
     "userName":"Foggy",
     "email":"foggy@aol.com",
-    "image":"http://tinyurl.com/z6wtgg2",
+    "image":"client/assets/pic6.jpg",
     "description":"A relaxed, sweet, sentimental puppy who likes to sit by the window and watch the snow fall."
   },
   {
     "userName":"barb",
     "email":"bard@askjeeves.com",
-    "image":"http://tinyurl.com/grlkoay",
+    "image":"client/assets/pic7.jpg",
     "description":"An barking puppy with an bong name. If you borrow barb, please return her with a better name."
   },
   {
     "userName":"Halo",
     "email":"halo@gmail.com",
-    "image":"http://tinyurl.com/hrdnh9d",
+    "image":"client/assets/pic8.jpg",
     "description":"Not to be confused with a hot dude in town, Halo is a theatrical puppy who longs to appear on the silver screen of your heart."
   }
 ]

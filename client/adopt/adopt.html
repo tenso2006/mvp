@@ -1,3 +1,13 @@
-<div>
-    {{}}
+<div ng-controller="adoptCtrl" ng-model="puppies" >
+  <h1>Adopt a puppy</h1>
+  <ul class = ".col-md-6" ng-repeat="puppy in puppies">
+    <li>
+        <h2>{{puppy.userName}}</h2>
+        <a href="#">{{puppy.email}}</a>
+        <img ng-src="{{puppy.image}}">
+        <span>{{puppy.description}}</span>
+    </li>
+  </ul>
+  <img src="https://cdn.pixabay.com/photo/2015/03/26/09/54/pug-690566_960_720.jpg">
 </div>
+
