@@ -1,16 +1,15 @@
 <div ng-controller="exchangeCtrl">
   <h1>Exchange a Puppy</h1>
-  <form ng-submit="exchange(puppy.userName, puppy.email, puppy.image, puppy.message)">
-        <h3>Puppy Share</h3>
+  <form ng-submit="exchange(userName, email, image, message)">
+        <h3>Share</h3>
         <LABEL>userName</LABEL>
-        <input type="text" ng-model="puppy.userName">
+        <input type="text" ng-model="userName">
         <label>Owner Email</label>
-        <input type="text" ng-model="puppy.email">
+        <input type="text" ng-model="email">
         <label>Image</label>
-        <input type="text" ng-model="puppy.image">
+        <input type="text" ng-model="image">
         <label>Adoption Message</label>
-        <input type="text" ng-model="puppy.message">
+        <input type="text" ng-model="message">
         <button>Add a Puppy</button>
-
     </form>
 </div>

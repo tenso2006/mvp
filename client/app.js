@@ -8,7 +8,8 @@ var app = angular.module('puppyApp', [
 
 /* configuring angular app to include all routes and its controller*/
 app.config(function ($routeProvider, $httpProvider, $locationProvider) {
-  $locationProvider.html5Mode({
+  $locationProvider
+  .html5Mode({
     enabled: true,
     requireBase: false
   });
@@ -70,14 +71,14 @@ app.factory('puppyFactory',function($http) {
 });
 //angular.module('puppyApp.adopt', [])
 app.controller('adoptCtrl', function ($scope, puppyFactory) {
-    $scope.display = function () {
+   // $scope.display = function () {
       puppyFactory.get()
       .then(function (data) {
         //console.log(data);
         $scope.puppies = data;
       });
-    };
-    $scope.display();
+    //};
+    //$scope.display();
 });
 
 app.controller('exchangeCtrl', function ($scope, puppyFactory) {
