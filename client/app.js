@@ -81,8 +81,11 @@ app.controller('adoptCtrl', function ($scope, puppyFactory) {
     //$scope.display();
 });
 
+// controller for exchanging puppies
 app.controller('exchangeCtrl', function ($scope, puppyFactory) {
   $scope.exchange = function (name, email, image, description) {
     puppyFactory.post(name, email, image, description);
   };
 });
+
+
