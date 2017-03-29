@@ -46,5 +46,11 @@
     "email":"halo@gmail.com",
     "image":"client/assets/pic8.jpg",
     "description":"Not to be confused with a hot dude in town, Halo is a theatrical puppy who longs to appear on the silver screen of your heart."
+  },
+  {
+    "userName":"Pello",
+    "email":"Pello@gmail.com",
+    "image":"client/assets/pic9.jpg",
+    "description":"simple puppy ."
   }
 ]
